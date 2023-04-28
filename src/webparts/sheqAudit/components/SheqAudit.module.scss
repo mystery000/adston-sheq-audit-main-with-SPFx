@@ -1,0 +1,62 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.sheqAudit {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.project-selector-container {
+  margin: 16px;
+}
+
+.overall-score-container {
+  width: 255px;
+  height: 74.8px;
+
+  background: #FFFFFF;
+
+  border: 0.6375px solid #CFD9E0;
+  border-radius: 3.825px;
+
+  font-size: 12.75px;
+}
+
+.action-button {
+  min-width: 250px;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.answer-button {
+  border: 1px solid #CFD9E0;
+  box-shadow: 0px 0.950723px 0px rgb(17 27 43 / 5%);
+  border-radius: 5px;
+  color: #111B2B;
+}

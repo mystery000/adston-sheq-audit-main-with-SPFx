@@ -1,0 +1,9 @@
+master/
+/dist
+.idea
+node_modules
+temp
+/release/**
+/lib/**
+yarn.lock
+sharepoint

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sheq-audit-client-side-solution",
+    "id": "0f7bea8c-e2fa-4b32-af79-72fb4f9f9202",
+    "version": "1.1.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SHEQ-Audit description"
+      },
+      "longDescription": {
+        "default": "SHEQ-Audit description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sheq-audit Feature",
+        "description": "The feature that activates elements of the sheq-audit solution.",
+        "id": "dd6f1999-9ddf-475e-8303-d9c9999d1609",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sheq-audit.sppkg"
+  }
+}
